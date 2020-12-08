@@ -1,24 +1,20 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react';
+import { Calendar } from './components/Calendar';
+import { Header } from './components/Header';
+import { Content } from './components/Content';
 import './App.scss';
-import { Switch, Link, Route } from 'react-router-dom';
 
-export const App = () => (
-  <div>
-    React starter pack
-    <div>
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/users">Users</Link>
-      </nav>
+export const App = () => {
+  const [date, setDate] = useState(null);
 
-      <Switch>
-        <Route path="/users">
-          <div>Users page</div>
-        </Route>
-        <Route path="/">
-          <div>Home page</div>
-        </Route>
-      </Switch>
+  const handleDateChange = newDate => setDate(newDate);
+
+  return (
+    <div className="container">
+      <Header />
+      <Content />
+      <Calendar onChange={handleDateChange} />
     </div>
-  </div>
-);
+  );
+};
