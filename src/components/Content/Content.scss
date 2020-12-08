@@ -8,10 +8,19 @@
   }
 
   &__text {
-    max-width: 270px;
+    max-width: 290px;
     margin-bottom: 20px;
 
     text-align: center;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 430px) {
+  .content {
+    &__img {
+      width: 250px;
+      height: 200px;
+    }
   }
 }

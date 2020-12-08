@@ -1,0 +1,24 @@
+.movies {
+  &__button {
+    position: relative;
+    width: 80%;
+    height: 40px;
+
+    margin-top: 30px;
+
+    transform: translateX(-50%);
+    left: 50%;
+
+    background-color: white;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    outline: none;
+  }
+
+  &__arrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+}

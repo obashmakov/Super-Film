@@ -42,9 +42,13 @@
     cursor: pointer;
     transition: 300ms;
 
-    &:hover {
+    &--selected {
       font-weight: bold;
       border-color: rgb(224, 61, 112);
+    }
+
+    &:hover {
+      background-color: rgb(230, 228, 228);
     }
   }
 }
