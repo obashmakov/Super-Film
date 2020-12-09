@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Super-Film/static/css/main.3fdc5141.chunk.css",
+    "main.js": "/Super-Film/static/js/main.0db257a4.chunk.js",
+    "main.js.map": "/Super-Film/static/js/main.0db257a4.chunk.js.map",
+    "runtime-main.js": "/Super-Film/static/js/runtime-main.3160406d.js",
+    "runtime-main.js.map": "/Super-Film/static/js/runtime-main.3160406d.js.map",
+    "static/js/2.fc0c87de.chunk.js": "/Super-Film/static/js/2.fc0c87de.chunk.js",
+    "static/js/2.fc0c87de.chunk.js.map": "/Super-Film/static/js/2.fc0c87de.chunk.js.map",
+    "index.html": "/Super-Film/index.html",
+    "static/css/main.3fdc5141.chunk.css.map": "/Super-Film/static/css/main.3fdc5141.chunk.css.map",
+    "static/js/2.fc0c87de.chunk.js.LICENSE.txt": "/Super-Film/static/js/2.fc0c87de.chunk.js.LICENSE.txt",
+    "static/media/TVimage.08120a3d.png": "/Super-Film/static/media/TVimage.08120a3d.png",
+    "static/media/arrowDown.ce6cdfc6.svg": "/Super-Film/static/media/arrowDown.ce6cdfc6.svg",
+    "static/media/Header.scss": "/Super-Film/static/media/headerBackground.3cb2d7ab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3160406d.js",
+    "static/js/2.fc0c87de.chunk.js",
+    "static/css/main.3fdc5141.chunk.css",
+    "static/js/main.0db257a4.chunk.js"
+  ]
+}
