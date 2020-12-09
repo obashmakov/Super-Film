@@ -1,8 +1,8 @@
-.nav {
+.container {
+  margin: 0 auto;
   display: flex;
-  margin: 20px;
-
-  * {
-    margin-right: 10px;
-  }
+  flex-direction: column;
+  align-items: center;
+  
+  max-width: 540px;
 }
