@@ -14,7 +14,7 @@ export const Button = ({ setIsClicked, quantity }) => {
       type="button"
       onClick={handleClick}
     >
-      {`Show ${quantity} More`}
+      {`Show ${quantity - 3} More`}
       <img
         className="movies__arrow"
         src={arrowDown}
