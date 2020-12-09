@@ -1,4 +1,4 @@
-const BASE_URL = 'http://api.tvmaze.com/schedule';
+const BASE_URL = 'https://api.tvmaze.com/schedule';
 
 export const request = async(url, options) => {
   const response = await fetch(`${BASE_URL}${url}`, options);
