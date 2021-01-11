@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# SuperFilm App
 
 - [DEMO LINK](https://obashmakov.github.io/Super-Film/)
 

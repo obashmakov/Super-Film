@@ -16,13 +16,17 @@ export const App = () => {
   useEffect(() => {
     if (date) {
       const year = String(date).slice(11, 15);
-      const month = date.getMonth() + 1;
+      let month = String(date.getMonth() + 1);
       const day = String(date).slice(8, 10);
+
+      if (month.length === 1) {
+        month = `0${month}`;
+      }
 
       setDateToLoad(`${year}-${month}-${day}`);
       setHeaderDate(`${day.startsWith(0)
         ? day.slice(1)
-        : day} ${monthsVars[month]} ${year.slice(2)}`);
+        : day} ${monthsVars[Number(month)]} ${year.slice(2)}`);
     }
   }, [date]);
 

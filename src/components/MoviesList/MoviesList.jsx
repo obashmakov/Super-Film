@@ -56,7 +56,7 @@ export const MoviesList = ({ date, headerDate, setDate }) => {
             </ul>
           )}
         </div>
-        {!isClicked && quantity > 3 && (
+        {!isClicked && (
           <Button setIsClicked={setIsClicked} quantity={quantity} />
         )}
       </section>
